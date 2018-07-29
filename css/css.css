@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(204, 232, 207);
+}
+.wrapper{
+    margin:20px auto;
+    width:401px;
+    height:600px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+#starGame-wrap{
+    width:100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index:999;
+}
+
+#go{
+    display:block;
+    height:100px;
+    width:401px;
+    color:#aaa;
+    background-color: #fff;
+    text-decoration: none;
+    border-top:3px dashed #eee;
+    border-bottom:3px dashed #eee;
+    font-weight:300;
+    font-family: "微软雅黑";
+    font-size:60px;
+}
+#main{
+    width:401px;
+    height:600px;
+    position: relative;
+    top:-150px;
+}
+.row{
+    width:401px;
+    height:150px;
+}
+.row div{
+    width:99px;
+    height:149px;
+    border-left:1px solid #222;
+    border-bottom:1px solid #222;
+    float: left;
+    cursor: pointer;
+}
+.row div:last-of-type{
+    border-right: 1px solid #222;
+}
+.clickSuccess{
+    background: #000;
+}
+.speed{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
